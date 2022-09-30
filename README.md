@@ -1,5 +1,5 @@
-# go-casbin-rabc-csv-example
-An example of how to use casbin as an RABC service with CSV configuration
+# go-casbin-rbac-csv-example
+An example of how to use casbin as an RBAC service with CSV configuration
 
 # Setup
 ## Install dependencies
@@ -14,7 +14,7 @@ $ go build server/main.go
 ```
 
 # Configuration
-The ACL policy is provided in `policy.csv`
+The RBAC policy is provided in `policy.csv`
 ```
 p, alice, data1, read
 p, data2_admin, data2, read
