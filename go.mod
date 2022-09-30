@@ -1,4 +1,4 @@
-module github.com/mrexmelle/go-casbin-rabc-csv-example
+module github.com/mrexmelle/go-casbin-rbac-csv-example
 
 go 1.18
 
